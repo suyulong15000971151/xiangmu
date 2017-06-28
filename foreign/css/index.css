@@ -1,0 +1,71 @@
+/*这是banner海报区域*/
+/*.banner{width:100%;height:600px;}*/
+/*这是图片展示区*/
+.fabrics{width:1200px;overflow: hidden;margin:30px auto 0;}
+.fabrics .title{width:100%;height:90px;line-height: 90px;}
+.fabrics .title span{float:left;font-size:18px;display: inline-block;overflow: hidden;}
+.fabrics .title span em{display: inline-block;width:3px;height:18px;float: left;background:#000;margin-top:35px;margin-right:25px}
+.fabrics .title i{float:right;font-size:18px;}
+.fabrics .content{width:100%;}
+.fabrics .content ul{}
+.fabrics .content ul li{float:left;width:33.3%;box-sizing: border-box;padding-bottom: 40px;}
+.fabrics .content ul li img{width:390px;height:260px;display:block;box-shadow:0px 5px 5px #999;transition: all 0.5s ease;}
+.fabrics .content ul li img:hover{transform: translateY(-50px);z-index: 33;}
+.fabrics .content ul li p{font-size:15px;margin-top:10px}
+/*专题*/
+.fabrics .zhuanti{width:100%;height:600px;background:url(../img/HomeBanner8.jpg) no-repeat center center;background-size: 100% 100%;clear: both;}
+.fabrics .zhuan-sub{width:100%;overflow: hidden;margin-top:40px}
+.fabrics .zhuan-sub ul{overflow: hidden;}
+.fabrics .content ul:after{content: '';display: inline-block;clear: both;}
+.fabrics .zhuan-sub ul li{float:left;width:50%;box-sizing: border-box;padding-bottom: 40px;}
+.fabrics .zhuan-sub ul li img{width:570px;height:330px;display: inline-block;box-shadow:0px 5px 5px #999;}
+.fabrics .zhuan-sub ul li p{font-size:15px;margin-top:10px}
+/*.fabrics .zhuan-sub span{display: block;width:100%;height:100%;background:rgba(0,0,0,.3);position: relative;}*/
+/*.fabrics .zhuan-sub span p{line-height: 30px;color:#fff;text-align: center;position: absolute;top:50%;transform: translateY(-50%);}*/
+/*colorsearch*/
+.fabrics .colorsearch{width:100%;height:600px;background:url(../img/colorsearch_03.jpg) no-repeat center center;background-size: 100% 100%;}
+.fabrics .zhuan-sub{width:100%;overflow: hidden;margin-top:40px}
+.fabrics .zhuan-sub ul{overflow: hidden;}
+.fabrics .zhuan-sub ul li{float:left;width:50%;box-sizing: border-box;padding-bottom: 40px;}
+.fabrics .zhuan-sub ul li span{width:570px;height:330px;position: relative;display: block;}
+.fabrics .zhuan-sub ul li img{width:570px;height:330px;display: inline-block;box-shadow:0px 5px 5px #999;}
+.fabrics .zhuan-sub ul li p{font-size:15px;margin-top:10px}
+.fabrics .zhuan-sub ul li span i p.pm{width:570px;font-size:20px;font-weight:400;line-height: 30px;color:#fff;text-align: center;position: absolute;top:50%;transform: translateY(-50%);}
+.fabrics .zhuan-sub ul li span i{transition: all 0.5s ease;display: block;width: 100%;height:100%;background:rgba(0,0,0,.5);position: absolute;top:0;left:0;opacity: 0;}
+.fabrics .zhuan-sub ul li span i:hover{opacity: 1;}
+.fabrics .zhuan-sub ul li span i:hover .fabrics .zhuan-sub ul li span i:hover{opacity: 1;}
+
+
+
+/*这是底部*/
+.right-img{margin-left:10px;display: block;}
+.right-img1{display: block;margin-left:30px}
+.middle-img{margin:0 auto 0;display: block;}
+.p1{text-indent: 30px;}
+.p{text-indent: 10px;}
+.pm{text-indent: 5px;}
+
+/*shouye点击*/
+.tva{border-bottom: 4px solid #000;box-sizing: border-box;}
+
+
+/*这是轮播*/
+/* index_focus */
+.index_focus{position:relative;width:100%;height:600px;margin:0 auto;overflow:hidden;min-width: 1200px;}
+.index_focus .bd{overflow: hidden;min-width: 1200px;height:600px}
+.index_focus .bd ul{min-width: 1200px;height:600px}
+.index_focus .bd li{display:none;position:absolute;left:0;top:0;overflow: hidden;min-width: 1200px;}
+.index_focus_post{z-index:10;}
+.index_focus .pic{height:auto;display:block;overflow: hidden;min-width: 1200px;}
+.index_focus .pic:hover{text-decoration:none;}
+.index_focus .slide_nav{position:absolute;left:45%;bottom:2%;}
+.index_focus .slide_nav a{cursor:pointer;float:left;display: inline-block;width:12px;height:12px;border-radius: 50%;border:1px solid #fff;margin:0 5px;}
+.index_focus .slide_nav li:hover,.index_focus .slide_nav .on{text-decoration:none;background:#fff;filter:alpha(opacity=80);opacity:0.8;}
+.index_focus_pre,.index_focus_next{display:none;position:absolute;top:50%;margin-top:-36px;width:72px;height:72px;text-indent:100%;white-space:nowrap;overflow:hidden;z-index:10;background:url(../img/ico_sliding.png) no-repeat;}
+.index_focus_pre{left:30px;background-position:0 0;}
+.index_focus_pre:hover{background-position:0 -144px;}
+.index_focus_next{right:30px;background-position:0 -72px;}
+.index_focus_next:hover{background-position:0 -216px;}
+.index_focus_info{display: none;position:absolute;left:10%;bottom:12%;width:800px;height:200px;padding-bottom:10px;color:#fff;text-decoration:none;cursor:pointer;font-family:"\5fae\8f6f\96c5\9ed1";-moz-text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);-webkit-text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);background:url("../img/index_focus_bg.png") no-repeat;_background:none;}
+.index_focus_info h3{font-size:36px;line-height:70px;font-family:\5fae\8f6f\96c5\9ed1, \u9ed1\u4f53, "Lucida Grande";display:none;}
+.index_focus_info .text{width:500px;line-height:24px;font-size:14px;word-wrap:break-word;overflow:hidden;display:none;}

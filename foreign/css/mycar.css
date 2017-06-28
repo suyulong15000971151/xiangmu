@@ -1,0 +1,57 @@
+header .right a.active{border-bottom:4px solid #fff;box-sizing: border-box;}
+header .right a.search{box-sizing: border-box;}
+header .right a.log{box-sizing: border-box;}
+header{position:relative}
+header #user{position:absolute;top:60px;right:100px;width:110px;height:130px;}
+header #user .user-box{width:100%;height:100%;position: relative;}
+header #user span{display: inline-block;border-bottom:10px solid #c1c1c1;
+position: absolute;left:45px;top:0;
+border-left:10px solid transparent;border-right:10px solid transparent;}
+header #user a.ac{margin-top:10px}
+header #user a{float:left;background:#c1c1c1;line-height: 40px;display: block;width:100%;height:40px;text-align: center;}
+/**/
+.yourtop{width:100%;height:50px;background:#000;text-align: center;font-size: 16px;line-height: 50px;color:#fff}
+/*这是里面个人信息*/
+
+/*这是order*/
+.order{width:100%;height:45px;background:#000;text-align: center;color:#fff;line-height: 45px;margin-top:30px}
+.order-box{width:1200px;overflow: hidden;margin:0 auto 0;}
+.order-box .checkout{width:100%;overflow: hidden;height:50px;border-bottom:1px solid #eee;margin-top:50px}
+.order-box .checkout span{float:left;padding:0 40px 0;line-height: 50px;}
+.order-box .checkout i{float:right;padding:5px 20px;background:#000;text-align: center;line-height: ;color:#fff;margin-top:12px}
+.order-box .checkout i.left{float:right;width:130px;height:30px;background:url(../img/express_03.png) no-repeat;background-size: 100% 100%}
+.order-box .checkout i.xia{background:#fff;color:#000}
+.order-box .checkout i.left1{margin-right:39px;background:#777}
+
+/*弹出*/
+
+.out{width:100%;height:100%;position: absolute;background:rgba(0,0,0,.2);z-index: 9999;opacity: 0;display: flex;justify-content: center;align-items: center;display: none;}
+.out .centr{    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff}
+.out .centr span{width:25px;height:25px;background:url(../img/cha.png) no-repeat;background-size: 100% 100%;float: right;margin-bottom:20px}
+.out .centr p{font-size: 20px;text-align: center;}
+/*这是里面的内容*/
+.content{width:1200px;height:659px;margin:0 auto 0}
+.content ul{overflow: hidden;width:100%;padding-top:50px}
+.content ul li{width:100%;overflow: hidden;padding:20px 0;font-size:15px;border-bottom:1px solid #666}
+.content ul li span{float:left;margin-right:80px;line-height: 50px;}
+.content ul li a{margin-top:10px;color:#fff;float:left;margin-left:28px;line-height: 30px;display: inline-block;width:140px;height:30px;text-align: center;}
+.content ul li a.left{background:#777;}
+.content ul li a.right{background:#000;}
+.content ul li a.express{background:url(../img/express_03.png) no-repeat;background-size: 100% 100%;}
+/*这是弹窗*/
+.tan1{position: absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.4);z-index: 100;display: none;}
+.tan1 .tan-box{width:100%;height:100%;}
+.tan1 .tan-box .tan-content{width:900px;height:300px;position: absolute;top:50%;left:50%;transform: translate(-50%,-50%);background:#fff}
+.tan1 .tan-box .tan-content i{display: inline-block;width:20px;height:25px;background:url(../img/cha.png) no-repeat;background-size: 25px 25px;float:right;margin:10px 10px 0 0;}
+.tan1 .tan-box h2{margin:20px auto 0;width:90%;line-height: 100px;text-align: center;font-size: 25px;font-weight: 400;border-bottom: 1px solid #eee;}
+.tan1 .tan-box h2 span{display: inline-block;width:200px;height:35px;margin:0 auto 0;background:url(../img/tanexpress_03.png) no-repeat;background-size: 100% 100%;}
+.tan1 .tan-box .add{width:75%;overflow: hidden;margin:20px auto 0}
+.tan1 .tan-box .set{width:90%;overflow: hidden;margin:40px auto 0;line-height: 30px;font-size:16px}
+.tan1 .tan-box .set span{font-weight: 600;}
+.tan1 .tan-box .set em{float:right}
